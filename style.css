@@ -1,0 +1,92 @@
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-left: 650;
+    padding-right: 750;*/
+   /* width: 15%;
+    height: auto;*/
+    }
+  
+  #menu {
+    font-weight: bold;
+    background-color: #333;
+    float: left;
+    padding: 20px;
+    width: 200px;
+  }
+
+  #menu img{
+    width: 100%;
+    height: auto;
+}
+  
+  #menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #menu ul li {
+    margin-bottom: 30px;
+  }
+  
+  #menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  #content {
+    margin-left: 300px;
+    padding: 20px;
+  }
+
+  a:link, a:visited {
+    color: white;
+    text-decoration: none;
+  }
+
+  body{
+    background-color: grey;
+    color: #ffffff;
+  }  
+
+  #modelle {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-top: 20;
+  }
+  
+  #ibanez {
+    margin-right: 250px;
+  }
+  
+  #ibanez img {
+    width: 200%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #solar-guitars {
+    margin-right: 20px;
+  }
+  
+  #solar-guitars img {
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #gibson {
+    margin-right: 20px;
+  }
+
+  #gibson img {
+    width: 40%;
+    height: auto;
+  }
